@@ -1,0 +1,41 @@
+Exception on /devices [POST]
+Traceback (most recent call last):
+  File "C:\Users\ACER\AppData\Local\Programs\Python\Python37\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\ACER\AppData\Local\Programs\Python\Python37\lib\site-packages\flask\app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\ACER\AppData\Local\Programs\Python\Python37\lib\site-packages\flask\app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\ACER\AppData\Local\Programs\Python\Python37\lib\site-packages\flask\app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "c:\Users\ACER\Desktop\FF\DeviceData\controllers\deviceController.py", line 15, in create_device
+    print(1/0)
+ZeroDivisionError: division by zero
+Exception on /devices [POST]
+Traceback (most recent call last):
+  File "C:\Users\ACER\AppData\Local\Programs\Python\Python37\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\ACER\AppData\Local\Programs\Python\Python37\lib\site-packages\flask\app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\ACER\AppData\Local\Programs\Python\Python37\lib\site-packages\flask\app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\ACER\AppData\Local\Programs\Python\Python37\lib\site-packages\flask\app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "c:\Users\ACER\Desktop\FF\DeviceData\controllers\deviceController.py", line 15, in create_device
+    print(1/0)
+ZeroDivisionError: division by zero
+Created Device: DEV3 - 54e5d85d-aa52-4c6b-9a6d-9c30eb91bf28
+Created Device: DEV5 - bd021b92-5d16-489e-8cd7-6009649536f6
+Created Device: DEV5 - 8337d549-6dce-4920-99d5-791c771172e7
+Created Sensor: {s1.name} - {s2.sensor_id} for device: {new_device.name} - {new_device.device_id}
+Created Device: DEV5 - 772fd55b-b0e3-471d-872d-c2e25c729c8f
+Created Sensor: temperature sensor - 967b0517-c371-4917-8a0d-96f4993d8c80 for device: DEV5 - 772fd55b-b0e3-471d-872d-c2e25c729c8f
+Created Device: DEV5 - b1f2e120-71d7-41cf-943a-763410dff1bb
+Created Sensor: temperature sensor - 52808c3d-8e51-4ab3-a313-9857663c4122 for device: DEV5 - b1f2e120-71d7-41cf-943a-763410dff1bb
+Updated Device: DEV1 - 1949c3ce-cbbf-45f6-bcff-36e7742ca8e6
+Updated Device: DEV1 - 1949c3ce-cbbf-45f6-bcff-36e7742ca8e6
+Updated Device: DEV1 - 1949c3ce-cbbf-45f6-bcff-36e7742ca8e6
+Created Device: DEV5 - c6dbb6af-9aa7-42db-9ef6-f1c613b058a3
+Created Sensor: temperature sensor - 456ad7b8-5e40-49ed-a538-aec39ab0df69 for device: DEV5 - c6dbb6af-9aa7-42db-9ef6-f1c613b058a3
+Created Sensor: pressure sensor - d40313fc-5659-4cb2-8b59-0c6dded0298d for device: DEV5 - c6dbb6af-9aa7-42db-9ef6-f1c613b058a3
+Created Sensor: Proximity Sensor - 494bbf9b-832c-43a3-84d7-3d11273ddb52 for device: DEV1 - cf7f6934-b1d6-4192-aeff-92d6d6721f9d

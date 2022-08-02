@@ -1,0 +1,10 @@
+INFO:Created Device: DEV5 - 772fd55b-b0e3-471d-872d-c2e25c729c8f
+INFO:Created Sensor: temperature sensor - 967b0517-c371-4917-8a0d-96f4993d8c80 for device: DEV5 - 772fd55b-b0e3-471d-872d-c2e25c729c8f
+INFO:Created Device: DEV5 - b1f2e120-71d7-41cf-943a-763410dff1bb
+INFO:Created Sensor: temperature sensor - 52808c3d-8e51-4ab3-a313-9857663c4122 for device: DEV5 - b1f2e120-71d7-41cf-943a-763410dff1bb
+INFO:Updated Device: DEV1 - 1949c3ce-cbbf-45f6-bcff-36e7742ca8e6
+INFO:Updated Device: DEV1 - 1949c3ce-cbbf-45f6-bcff-36e7742ca8e6
+INFO:Updated Device: DEV1 - 1949c3ce-cbbf-45f6-bcff-36e7742ca8e6
+INFO:Created Device: DEV5 - c6dbb6af-9aa7-42db-9ef6-f1c613b058a3
+INFO:Created Sensor: temperature sensor - 456ad7b8-5e40-49ed-a538-aec39ab0df69 for device: DEV5 - c6dbb6af-9aa7-42db-9ef6-f1c613b058a3
+INFO:Created Sensor: pressure sensor - d40313fc-5659-4cb2-8b59-0c6dded0298d for device: DEV5 - c6dbb6af-9aa7-42db-9ef6-f1c613b058a3
